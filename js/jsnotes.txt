@@ -1,0 +1,10 @@
+1 .JavaScript Facts #1...
+
+"NaN (Not-a-Number) is the only JavaScript value which is not equal to itself when comparing with any of the comparison operators"
+
+Why?
+
+Here's the short story...
+
+According to IEEE 754 specifications, any operation performed on NaN values should yield a false value or should raise an error.
+
