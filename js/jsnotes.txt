@@ -12,3 +12,14 @@ According to IEEE 754 specifications, any operation performed on NaN values shou
   3.1 excultion context  divide into two phase
     3.1.1 Memory Creatiob phase- in this phase all veriable And function get memory.
     3.1.2 Code exicution phase- in this phase actual code exicution is happend
+
+4. Hoisting in javascript --
+    example:
+      console.log(num);
+      isValid(123)
+      var num=10
+      function isValid(){
+          
+      }
+
+
