@@ -7,4 +7,8 @@ Why?
 Here's the short story...
 
 According to IEEE 754 specifications, any operation performed on NaN values should yield a false value or should raise an error.
-
+2. JavaScript is single threaded ,synchronous language.
+3. Everything in javascript happen inside exicution contex-
+  3.1 excultion context  divide into two phase
+    3.1.1 Memory Creatiob phase- in this phase all veriable And function get memory.
+    3.1.2 Code exicution phase- in this phase actual code exicution is happend
