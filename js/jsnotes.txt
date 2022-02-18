@@ -19,7 +19,9 @@ According to IEEE 754 specifications, any operation performed on NaN values shou
       isValid(123)
       var num=10
       function isValid(){
-          
+
       }
+5. let =https://www.w3schools.com/js/js_let.asp
+   const=https://www.w3schools.com/js/js_const.asp      
 
 
