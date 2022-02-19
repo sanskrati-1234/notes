@@ -35,3 +35,4 @@ into your website. JSX is an addition to the JavaScript
 syntax which is a mixture of both HTML and JavaScript. 
 Both JS and JSX are interchangeable but JSX makes the 
 code easier to understand for users.
+7. var is not a global scope, its scope depend where we have declear it
