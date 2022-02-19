@@ -14,6 +14,12 @@ According to IEEE 754 specifications, any operation performed on NaN values shou
     3.1.2 Code exicution phase- in this phase actual code exicution is happend
 
 4. Hoisting in javascript --
+   JavaScript, Hoisting is the default behavior of moving all 
+   the declarations 
+   at the top of the scope before code execution. Basically, 
+   it gives us an advantage that no matter where functions and
+   variables are declared, they are moved to the top of their 
+   scope regardless of whether their scope is global or local.
     example:
       console.log(num);
       isValid(123)
