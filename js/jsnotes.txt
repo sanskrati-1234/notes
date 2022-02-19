@@ -36,3 +36,13 @@ syntax which is a mixture of both HTML and JavaScript.
 Both JS and JSX are interchangeable but JSX makes the 
 code easier to understand for users.
 7. var is not a global scope, its scope depend where we have declear it
+8. scope chaining
+
+9. a=100 --- this is acidental variable , this is not part of Hoisting  and
+this is like window.a=100, these are only part of code exicution
+window is browser api.
+
+10. Types of scope in JS
+- Global Scope
+- Functional/Local Scope
+- Block or Script Scope
