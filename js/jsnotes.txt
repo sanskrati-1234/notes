@@ -30,4 +30,8 @@ According to IEEE 754 specifications, any operation performed on NaN values shou
 5. let =https://www.w3schools.com/js/js_let.asp
    const=https://www.w3schools.com/js/js_const.asp      
 
-
+6. JS is simply a scripting language, adding functionality 
+into your website. JSX is an addition to the JavaScript 
+syntax which is a mixture of both HTML and JavaScript. 
+Both JS and JSX are interchangeable but JSX makes the 
+code easier to understand for users.
