@@ -97,8 +97,8 @@ console.log(d);
   it finds the variable.
   
   
-  - Hoisting
-  - Types of functions
+   - Types of functions-
+     
    
 11. Types of scope in JS
 - Global Scope - Any variable that’s not inside any function 
@@ -115,3 +115,4 @@ console.log(d);
   
   ***We can see that var variables can be used outside the block, 
   that is, var variables are not block scoped.
+
