@@ -51,7 +51,16 @@ window.c = "Arun";
 newTry();
 
 console.log(d);
-10.
+10.Definitions to read
+  - Accidental variables-When a undeclared variable 
+  is referenced, javascript creates a new variable 
+  in the global object. In the following Example-1 
+  let's say the purpose of languages is to only reference a 
+  variable in the "myArray" function. If we don't use var to 
+  declare it a global variable will be created.
+  - Scope Chaining
+  - Hoisting
+  - Types of functions
    
 11. Types of scope in JS
 - Global Scope
