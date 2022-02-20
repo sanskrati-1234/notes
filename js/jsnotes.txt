@@ -62,7 +62,41 @@ console.log(d);
   - Scope- Scope in JavaScript refers to the accessibility or 
     visibility of variables. That is, which parts of a program have 
     access to the variable or where the variable is visible.
-  - Scope Chaining
+  - Scope Chaining -When a variable is used in JavaScript, the JavaScript engine 
+    will try to find the variable’s value in the current scope. If it could 
+    not find the variable, it will look into the outer scope and will continue
+     to do so until it finds the variable or reaches global scope.
+    
+    If it’s still could not find the variable, it will either implicitly 
+    declare the variable in the global scope (if not in strict mode) or 
+    return an error.
+  For example:
+  let foo = 'foo';
+  function bar() {
+    let baz = 'baz';
+    // Prints 'baz'
+    console.log(baz);
+    // Prints 'foo'
+    console.log(foo);
+    number = 42;
+    console.log(number);  // Prints 42
+  }
+  bar();
+  When the function bar() is executed, the JavaScript engine looks for the 
+  baz variable and finds it in the current scope. Next, it looks for foo 
+  variable in the current scope and it can’t find it there, so it looks for 
+  the variable in outer scope and finds it there (i.e global scope).
+
+  After that, we assign 42 to the number variable, so the JavaScript engine 
+  looks for the number variable in the current scope and after that in the
+  outer scope.
+  If the script is not in strict mode, the engine will create a new variable 
+  named number and assign 42 to it or return an error (if not in strict mode).
+  
+  So when a variable is used the engine will traverse the scope chain until 
+  it finds the variable.
+  
+  
   - Hoisting
   - Types of functions
    
@@ -77,3 +111,7 @@ console.log(d);
 - Block or Script Scope -ES6 introduced let and const variables,
   unlike var variables, they can be scoped to the nearest pair of curly braces. 
   That means, they can’t be accessed from outside that pair of curly braces
+  
+  
+  ***We can see that var variables can be used outside the block, 
+  that is, var variables are not block scoped.
