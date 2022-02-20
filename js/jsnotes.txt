@@ -71,5 +71,9 @@ console.log(d);
   or block (a pair of curly braces), is inside the global scope. 
   The variables in global scope can be accessed from anywhere in the program
 
-- Functional/Local Scope
-- Block or Script Scope
+- Functional/Local Scope-Variables declared inside a function is inside
+   the local scope. They can only be accessed from within that function, 
+   that means they can’t be accessed from the outside code
+- Block or Script Scope -ES6 introduced let and const variables,
+  unlike var variables, they can be scoped to the nearest pair of curly braces. 
+  That means, they can’t be accessed from outside that pair of curly braces
