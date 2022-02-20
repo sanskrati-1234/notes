@@ -41,8 +41,19 @@ code easier to understand for users.
 9. a=100 --- this is acidental variable , this is not part of Hoisting  and
 this is like window.a=100, these are only part of code exicution
 window is browser api.
+console.log("Run");
+function newTry() {
+  a = 100; //window.a = 100
+  var c = (d = "Aghaz Junaid");
+}
 
-10. Types of scope in JS
+window.c = "Arun";
+newTry();
+
+console.log(d);
+10.
+   
+11. Types of scope in JS
 - Global Scope
 - Functional/Local Scope
 - Block or Script Scope
