@@ -58,11 +58,18 @@ console.log(d);
   let's say the purpose of languages is to only reference a 
   variable in the "myArray" function. If we don't use var to 
   declare it a global variable will be created.
+  What is Scope?
+  - Scope- Scope in JavaScript refers to the accessibility or 
+    visibility of variables. That is, which parts of a program have 
+    access to the variable or where the variable is visible.
   - Scope Chaining
   - Hoisting
   - Types of functions
    
 11. Types of scope in JS
-- Global Scope
+- Global Scope - Any variable that’s not inside any function 
+  or block (a pair of curly braces), is inside the global scope. 
+  The variables in global scope can be accessed from anywhere in the program
+
 - Functional/Local Scope
 - Block or Script Scope
