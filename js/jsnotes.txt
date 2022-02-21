@@ -116,3 +116,10 @@ console.log(d);
   ***We can see that var variables can be used outside the block, 
   that is, var variables are not block scoped.
 
+
+12. append and appendChild
+    append - support html element and text also doesnot return anything
+    apeendChild - support html element return new created element
+
+
+13. innerText vs textContent
