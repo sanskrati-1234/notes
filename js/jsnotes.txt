@@ -123,3 +123,5 @@ console.log(d);
 
 
 13. innerText vs textContent
+    13.1 : innerText will give text only
+    13.2  : textContent will give space also if there any inside element
