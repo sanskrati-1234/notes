@@ -119,9 +119,19 @@ console.log(d);
 
 12. append and appendChild
     append - support html element and text also doesnot return anything
-    apeendChild - support html element return new created element
+    apeendChild - support html element return new created element 
 
 
 13. innerText vs textContent
     13.1 : innerText will give text only
     13.2  : textContent will give space also if there any inside element
+14. template leteral and template string
+    var a=`hello ${name}`
+    back ticks
+15.creattion phase is part of exicuatiom context where is scan code from top to buttom.
+and alocate memory to var veriable and function .it intilize variable with undefined
+and function with entire function
+
+16. A call stack is a mechanism for an interpreter (like the JavaScript 
+interpreter in a web browser) to keep track of its place in a script that 
+calls multiple functions
