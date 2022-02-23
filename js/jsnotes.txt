@@ -135,3 +135,7 @@ and function with entire function
 16. A call stack is a mechanism for an interpreter (like the JavaScript 
 interpreter in a web browser) to keep track of its place in a script that 
 calls multiple functions
+
+
+17. useMemo. memo, useCallback
+
