@@ -152,11 +152,11 @@ console.log(d);
             x=2; //work
 
       const:   
-          let x = "John Doe";
-          let x = 0;
+          const x = "John Doe";
+          const x = 0;
           // SyntaxError: 'x' has already been declared
         example2:
-            let x = "John Doe";
+            const x = "John Doe";
             x=2; //TypeError  
 19. type of error in javascript
     let: let x = "John Doe";
@@ -169,11 +169,11 @@ console.log(d);
             console.log(a);/referenceError
             let a=10;
       const:   
-          let x = "John Doe";
+          const x = "John Doe";
           let x = 0;
           // SyntaxError: 'x' has already been declared
         example2:
-            let x = "John Doe";
+            const x = "John Doe";
             x=2; //TypeError  
 
 
