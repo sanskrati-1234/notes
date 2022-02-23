@@ -157,8 +157,24 @@ console.log(d);
           // SyntaxError: 'x' has already been declared
         example2:
             let x = "John Doe";
-            x=2; //ERROR   
-
+            x=2; //TypeError  
+19. type of error in javascript
+    let: let x = "John Doe";
+          let x = 0;
+          // SyntaxError: 'x' has already been declared
+        example2:
+            let x = "John Doe";
+            x=2; //work
+        example3: 
+            console.log(a);/referenceError
+            let a=10;
+      const:   
+          let x = "John Doe";
+          let x = 0;
+          // SyntaxError: 'x' has already been declared
+        example2:
+            let x = "John Doe";
+            x=2; //TypeError  
 
 
 17. useMemo. memo, useCallback
