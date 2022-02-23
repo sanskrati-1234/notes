@@ -140,6 +140,26 @@ console.log(d);
   2. creation phase
   3. exicution phase
   4. clearing memory
+18. let and const:
+     let and const hosted in block or script scope, so we can access the after
+     intilization
+     these are part of script or block scope
+     let: let x = "John Doe";
+          let x = 0;
+          // SyntaxError: 'x' has already been declared
+        example2:
+            let x = "John Doe";
+            x=2; //work
+
+      const:   
+          let x = "John Doe";
+          let x = 0;
+          // SyntaxError: 'x' has already been declared
+        example2:
+            let x = "John Doe";
+            x=2; //ERROR   
+
+
 
 17. useMemo. memo, useCallback
   17.1.useMemo : The React useMemo Hook returns a memoized value.
