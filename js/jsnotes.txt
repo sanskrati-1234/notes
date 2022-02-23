@@ -129,13 +129,17 @@ console.log(d);
     var a=`hello ${name}`
     back ticks
 15.creattion phase is part of exicuatiom context where is scan code from top to buttom.
-and alocate memory to var veriable and function .it intilize variable with undefined
-and function with entire function
+   and alocate memory to var veriable and function .it intilize variable with undefined
+   and function with entire function
 
 16. A call stack is a mechanism for an interpreter (like the JavaScript 
-interpreter in a web browser) to keep track of its place in a script that 
-calls multiple functions
+    interpreter in a web browser) to keep track of its place in a script that 
+    calls multiple functions
 
 
 17. useMemo. memo, useCallback
-
+  17.1.useMemo : The React useMemo Hook returns a memoized value.
+    "Think of memoization as caching a value so that it does not need to be 
+    recalculated."
+    The useMemo Hook only runs when one of its dependencies update.
+    This can improve performance.
