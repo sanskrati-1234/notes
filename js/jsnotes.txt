@@ -197,7 +197,18 @@ No these types of variables are not getting hoisted.
   }
 
   meTry();
+21. datatype in javascript:
+  1. premitive : pass by value
+     boolean
+     string
+     number
+     null
+     undefine
+     symbol
+  2. non premitive: pass by reference
 
+    2.1:  object
+    2.2: function
 So in this case, c1 will only be in the memory when the code reaches to it's curly braces
 17. useMemo. memo, useCallback
   17.1.useMemo : The React useMemo Hook returns a memoized value.
