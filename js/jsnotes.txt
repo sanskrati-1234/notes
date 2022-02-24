@@ -1,12 +1,11 @@
 1 .JavaScript Facts #1...
 
 "NaN (Not-a-Number) is the only JavaScript value which is not equal to itself when comparing with any of the comparison operators"
-
 Why?
-
 Here's the short story...
-
 According to IEEE 754 specifications, any operation performed on NaN values should yield a false value or should raise an error.
+
+
 2. JavaScript is single threaded ,synchronous language.
 3. Everything in javascript happen inside exicution contex-
   3.1 excultion context  divide into two phase
@@ -176,7 +175,30 @@ console.log(d);
             const x = "John Doe";
             x=2; //TypeError  
 
+20.   Is let & const are getting hoisted
 
+No these types of variables are not getting hoisted.
+- They're using a scope known as script scope when defined in global area
+- They're using a scope known as block scope when defined in a {} block
+- Script & block is the same only their places is different
+
+  var a = 1;
+  let b = 2;
+  const c = true;
+
+  function meTry() {
+    var a1 = 2;
+    let b2 = 3;
+
+    {
+      let c1 = true;
+      var g1 = 2;
+    }
+  }
+
+  meTry();
+
+So in this case, c1 will only be in the memory when the code reaches to it's curly braces
 17. useMemo. memo, useCallback
   17.1.useMemo : The React useMemo Hook returns a memoized value.
     "Think of memoization as caching a value so that it does not need to be 
