@@ -122,8 +122,38 @@ console.log(d);
 
 
 13. innerText vs textContent
+    i) textContent gets the content of all elements, 
+       including <script> and <style> elements. In contrast, 
+       innerText only shows human-readable elements.
+    2) textContent returns every element in the node. 
+    In contrast, innerText is aware of styling and 
+    won't return the text of hidden elements.
     13.1 : innerText will give text only
     13.2  : textContent will give space also if there any inside element
+     <div>
+      innerHTML vs textContent
+      <style>
+        div {
+          color: rgb(243, 164, 61);
+        }
+      </style>
+    </div>
+  </body>
+  <script>
+    const div = document.getElementsByTagName("div");
+
+    console.log(div[0].innerText);
+    //innerHTML vs textContent
+    console.log(div[0].textContent);
+    /*
+       innerHTML vs textContent
+      
+        div {
+          color: rgb(243, 164, 61);
+        }
+      
+    
+    */
 14. template leteral and template string
     var a=`hello ${name}`
     back ticks
