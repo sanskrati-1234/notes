@@ -239,7 +239,16 @@ No these types of variables are not getting hoisted.
 
     2.1:  object
     2.2: function
-So in this case, c1 will only be in the memory when the code reaches to it's curly braces
+So in this case, c1 will only be in the memory when the code reaches to 
+it's curly braces
+
+22. Destructuring: The destructuring assignment syntax is a JavaScript expression 
+that makes it possible to unpack values from arrays, 
+or properties from objects, into distinct variables.
+
+Link: https://www.w3schools.com/react/react_es6_destructuring.asp
+  
+
 17. useMemo. memo, useCallback
   17.1.useMemo : The React useMemo Hook returns a memoized value.
     "Think of memoization as caching a value so that it does not need to be 
