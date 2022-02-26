@@ -247,8 +247,8 @@ that makes it possible to unpack values from arrays,
 or properties from objects, into distinct variables.
 
 Link: https://www.w3schools.com/react/react_es6_destructuring.asp
-  
-
+Array Destructuring: https://davidwalsh.name/array-destructuring
+Aliases with JavaScript Destructuring :https://davidwalsh.name/destructuring-alias
 17. useMemo. memo, useCallback
   17.1.useMemo : The React useMemo Hook returns a memoized value.
     "Think of memoization as caching a value so that it does not need to be 
