@@ -116,9 +116,14 @@ console.log(d);
   that is, var variables are not block scoped.
 
 
-12. append and appendChild
-    append - support html element and text also doesnot return anything
-    apeendChild - support html element return new created element 
+12. append VS appendChild :
+
+  12.1. append does not have a return value while appendChild returns the 
+        appended object.
+  12.2. append accepts object and Strings while .appendChild accepts only
+        objects .
+  12.3. via append we can add multiple element  while appendChild allows only 
+        a single item.
 
 
 13. innerText vs textContent
