@@ -258,7 +258,8 @@ or properties from objects, into distinct variables.
 context, it is local memory plus Lexical Enviroment of its Lexical parent
 
 24. Detail about null: https://dmitripavlutin.com/javascript-null/#:~:text=The%20JavaScript%20specification%20says%20about,an%20object%20wasn%27t%20created
-
+25. deep and Shallow copy: https://www.freecodecamp.org/news/copying-stuff-in-javascript-how-to-differentiate-between-deep-and-shallow-copies-b6d8c1ef09cd/
+    deep and Shallow copy by deepclone and clone : https://blog.logrocket.com/methods-for-deep-cloning-objects-in-javascript/
 
 Link: https://www.w3schools.com/react/react_es6_destructuring.asp
 Array Destructuring: https://davidwalsh.name/array-destructuring
