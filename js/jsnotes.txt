@@ -253,6 +253,11 @@ it's curly braces
 that makes it possible to unpack values from arrays, 
 or properties from objects, into distinct variables.
 
+
+23. Lexical Enviroment : Lexical Enviroment is created while creation of exicuation
+context, it is local memory plus Lexical Enviroment of its Lexical parent
+
+
 Link: https://www.w3schools.com/react/react_es6_destructuring.asp
 Array Destructuring: https://davidwalsh.name/array-destructuring
 Aliases with JavaScript Destructuring :https://davidwalsh.name/destructuring-alias
