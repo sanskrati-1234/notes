@@ -212,7 +212,9 @@ console.log(d);
 
 20.   Is let & const are getting hoisted
 
-No these types of variables are not getting hoisted.
+yes these types of variables are are getting hoisted.but they are hoisted script scope
+we cannot access it before is intilization.
+
 - They're using a scope known as script scope when defined in global area
 - They're using a scope known as block scope when defined in a {} block
 - Script & block is the same only their places is different
