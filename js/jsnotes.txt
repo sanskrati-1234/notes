@@ -257,6 +257,8 @@ or properties from objects, into distinct variables.
 23. Lexical Enviroment : Lexical Enviroment is created while creation of exicuation
 context, it is local memory plus Lexical Enviroment of its Lexical parent
 
+24. Detail about null: https://dmitripavlutin.com/javascript-null/#:~:text=The%20JavaScript%20specification%20says%20about,an%20object%20wasn%27t%20created
+
 
 Link: https://www.w3schools.com/react/react_es6_destructuring.asp
 Array Destructuring: https://davidwalsh.name/array-destructuring
