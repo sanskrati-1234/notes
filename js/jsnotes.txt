@@ -241,7 +241,7 @@ we cannot access it before is intilization.
      number
      null
      undefine
-     symbol
+     symbol : https://levelup.gitconnected.com/everything-you-need-to-know-about-javascript-symbols-24650a163038
   2. non premitive: pass by reference
 
     2.1:  object
@@ -264,6 +264,11 @@ context, it is local memory plus Lexical Enviroment of its Lexical parent
 Link: https://www.w3schools.com/react/react_es6_destructuring.asp
 Array Destructuring: https://davidwalsh.name/array-destructuring
 Aliases with JavaScript Destructuring :https://davidwalsh.name/destructuring-alias
+
+26 . parseInt vs Number vs +1
+     in parseInt(2.6) = 2
+     Number(2.6)=2.6
+     +2.6 =2.6
 17. useMemo. memo, useCallback
   17.1.useMemo : The React useMemo Hook returns a memoized value.
     "Think of memoization as caching a value so that it does not need to be 
