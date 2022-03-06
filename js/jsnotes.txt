@@ -269,6 +269,14 @@ Aliases with JavaScript Destructuring :https://davidwalsh.name/destructuring-ali
      in parseInt(2.6) = 2
      Number(2.6)=2.6
      +2.6 =2.6
+
+27.  What is an Immediately Invoked Function in JavaScript?
+     An Immediately Invoked Function ( known as IIFE and pronounced as IIFY) 
+     is a function that runs as soon as it is defined.
+     Syntax of IIFE :
+      (function(){ 
+        // Do something;
+      })();     
 17. useMemo. memo, useCallback
   17.1.useMemo : The React useMemo Hook returns a memoized value.
     "Think of memoization as caching a value so that it does not need to be 
