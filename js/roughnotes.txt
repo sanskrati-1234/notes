@@ -1,0 +1,17 @@
+when in object key and variable name is same so we can use like
+
+obj={
+    name,
+    city
+}
+this is also know as shourthand
+
+object disreucturing
+obj={name:"sa",city:"xyz"}
+{name: 'sa', city: 'xyz'}
+let {name,city}=obj
+if key not there in object and we are trying to  Destructuring it will give undefine
+if we value of key is undefined then also we will get undefined
+
+
+spread operator
