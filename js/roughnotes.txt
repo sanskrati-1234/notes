@@ -15,3 +15,14 @@ if we value of key is undefined then also we will get undefined
 
 
 spread operator
+shallow-copy= when we copy referenceof object to another object
+
+create a copy
+- JSON.parse(JSON.stringyfy(obj))
+- spread operator  --- const obj1={...obj};
+- custom logic
+
+concate object
+obj3={obj1,obj2,city:{"name":"paris"}}
+////
+obj4=Object.assign(obj1,obj2);
