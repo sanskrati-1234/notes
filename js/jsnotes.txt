@@ -333,3 +333,13 @@ or can pass as argument and return from function...
 
 32: A temporal dead zone (TDZ) is the area of a block where a variable is inaccessible until 
 the moment the computer completely initializes it with a value.
+
+33. IIFE(Immediately-invoked Function Expression):
+An Immediately-invoked Function Expression (IIFE for friends) is a way to execute functions immediately,
+as soon as they are created.
+
+IIFEs are very useful because they don’t pollute the global object, 
+and they are a simple way to isolate variables declarations.
+(function() {
+  /* */
+})()

@@ -1,0 +1,6 @@
+-What is JavaScript:
+ JavaScript is single threaded ,synchronous language.
+
+-How DOM Api works
+ The bridge between JavaScript programs and the content that is rendered in the browser is the Document Object Model (DOM) API . The DOM API is a formal specification maintained by the W3C which defines a standard way for scripts to read and 
+ manipulate the browser's in-memory document object
