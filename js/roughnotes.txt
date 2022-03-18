@@ -49,3 +49,16 @@ map:
 
 
     console.log(multipleElementByTwo (numbers)); // [10, 6, 18, 60]
+
+///
+ set 
+   set.values()
+   set.add(value)
+map 
+   map will resturn new object , it will not effect actual array
+
+   how to clear object and array
+
+   higher order function
+
+   
