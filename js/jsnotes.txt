@@ -327,5 +327,5 @@ Can not use yield, within its body.
 
 
 
-31: First Class Function: function which can take another function as 
-argument or return function.
+31: First Class Function: The Ability of funtion to use as values 
+or can pass as argument and return from function...
