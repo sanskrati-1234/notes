@@ -288,4 +288,44 @@ Aliases with JavaScript Destructuring :https://davidwalsh.name/destructuring-ali
 
 
 callstack present inside javascript engine , everything in javascript exicute inside callstack
+29: Higher Order Function: function which take another function as argument or
+ return another function know as higher order function
 
+ function x(){
+   console.log("Hello")
+ }
+ function y(x){
+   x();
+ }
+note: here y is higer order function and x is callback function
+29: method of array:
+   set 
+   set.values()
+   set.add(value)
+
+   how to clear object and array
+
+
+   higher order function
+
+
+30: rest and spread operator:
+   rest operator= re   
+
+
+31.An arrow function expression is a compact alternative to a traditional function expression, but is limited and can't be used in all situations.
+
+Differences & Limitations:
+
+Does not have its own bindings to this or super, and should not be used as methods.
+Does not have new.target keyword.
+Not suitable for call, apply and bind methods, which generally rely on establishing a scope.
+Can not be used as constructors.
+Can not use yield, within its body.
+
+
+
+
+
+31: First Class Function: function which can take another function as 
+argument or return function.
