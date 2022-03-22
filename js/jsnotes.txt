@@ -353,3 +353,28 @@ function Person () {
 
 // create an object
 const person = new Person();
+
+
+35:
+  request:
+  depend on network
+  depend on size of data
+  depend on server
+
+36: The Promise object represents the eventual completion (or failure)
+ of an asynchronous operation and its resulting value.
+ / Promise is tecnique, which help to handle async task
+  promise has three state
+  pending
+  success/Resolve
+  failed
+
+  async - low periorty
+  sync -hige periorty
+
+
+order:
+js-
+sync  --1
+call back base async -3
+promise base base async -2
