@@ -378,3 +378,12 @@ js-
 sync  --1
 call back base async -3
 promise base base async -2
+
+
+
+promise-pending state
+
+if we define setTimeout inside promise
+where setTimeout exicute in that case
+
+call stack me kya kya jatahai 
