@@ -387,3 +387,5 @@ if we define setTimeout inside promise
 where setTimeout exicute in that case
 
 call stack me kya kya jatahai 
+
+blocking calls / non blocking call

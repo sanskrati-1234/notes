@@ -1,0 +1,84 @@
+0 -Why we're using async programming, explain
+  - because when we do network call , so response time of
+   that call is prefine, it depends on multiple aspect
+   like:  depend on network
+          depend on size of data
+          depend on server
+
+
+1- What is Async programming & how does it works
+    - in js for every program exicution context is created
+
+2- How browser handles async code
+  - whenever async task ancounter then on the basis of priority
+  it will goto call back queue or micro task queue
+  *** Note: promises has higher priority then call back async
+   also if any task taking more time to complete and other
+   task is ready to exicute then event loop take that task into
+   call back. 
+
+3- What is Micro task queue
+   - micro task queue contains promises. 
+4- What is callback or macro task queue
+   callback queue- it contains call back async functions.
+5- What is event loop
+   - event loop is part of browser, and it check call stack
+   , mirco and call back queue ,and take task from queue to
+    stack after sync code code exicution
+6- How event loop handle the async code execution
+7- Is event loop single or multi threaded
+- single threaded
+8- Which one is having more priority microtask or callback queue & why
+   micro task exicution. becuase promises has more priority the 
+   call back functions
+9- What is a promise
+   - Promise is non blocking , which help use to handle async task.
+10- Stages/component of promise
+    there are stages of promise:
+    -panding stage
+    - rejected
+    - fullfill
+
+11- JavaScript code exeuction priority
+  - sync code
+  - promises 
+  - callback async
+12- How to handle reject errors in promises
+    - use catch
+13- What is promise chaining:
+    Sometimes, you want to execute two or more related asynchronous 
+    operations, where 
+    the next operation starts with the result from the previous step
+
+function generateNumber(num) {
+    return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve(num);
+    }, 3 * 1000);
+  });
+}
+
+generateNumber(10)
+  .then((result) => {
+    console.log(result);
+    return generateNumber(result * 2);
+  })
+  .then((result) => {
+    console.log(result);
+    return generateNumber(result * 3);
+  })
+  .then((result) => console.log(result));
+14- What is blocking vs non blocking code
+    - Blocking refers to operations that block further execution 
+    until that operation finishes
+     while non-blocking refers to code that doesn't block execution
+
+15- What is Promise.all, settled, any
+    https://blog.logrocket.com/javascript-promises-race-all-allsettled-then/
+16- What is async & await & how it's different from promises
+    
+17- What is .then & .catch
+18- How a setTimeOut will be exeucting inside a promise
+19- How to create async function in normal & arrow
+20- Can we use await without async
+21- An image tag loading an image sync or async
