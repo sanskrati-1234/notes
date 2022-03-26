@@ -389,3 +389,8 @@ where setTimeout exicute in that case
 call stack me kya kya jatahai 
 
 blocking calls / non blocking call
+
+
+36: how we can  clear prototype by object
+ Object.create(null)
+ Object,create({a:1})
