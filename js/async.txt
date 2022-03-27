@@ -79,6 +79,29 @@ generateNumber(10)
     
 17- What is .then & .catch
 18- How a setTimeOut will be exeucting inside a promise
+    
 19- How to create async function in normal & arrow
-20- Can we use await without async
+    const func = async () => {
+    const p11 = await Promise.all([p1(), p2(), p3(), p4(), p5()]).catch(
+      (err) => {
+        console.log(err);
+      }
+    );
+    console.log(p11);
+    const p22 = await Promise.allSettled([p1(), p2(), p3(), p4(), p5()]).catch(
+      (err) => {
+        console.log(err);
+      }
+    );
+    console.log(p22);
+    const p33 = await Promise.any([p1(), p2(), p3(), p4(), p5()]).catch(
+      (err) => {
+        console.log(err);
+      }
+    );
+    console.log(p33);
+  };
+  func();
+20- Can we use await without async:
+    no , becuase await wait for completion of async task
 21- An image tag loading an image sync or async
