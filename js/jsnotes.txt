@@ -394,3 +394,8 @@ blocking calls / non blocking call
 36: how we can  clear prototype by object
  Object.create(null)
  Object,create({a:1})
+
+
+37. TS is superset of js
+help to reduce error at
+production 
