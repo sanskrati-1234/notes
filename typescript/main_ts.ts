@@ -28,6 +28,7 @@ interface IGeo{
     lat:string,
     lng:string
 }
+
 const obj:IinneraData={
     id: 1,
     name: "Leanne Graham",
@@ -51,3 +52,5 @@ const obj:IinneraData={
       bs: "harness real-time e-markets"
     }
   };
+  const arr=[obj];
+  console.log(arr)
