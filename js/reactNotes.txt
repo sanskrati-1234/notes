@@ -1,0 +1,28 @@
+1. React js :React is a JavaScript library for building user interfaces
+2.virtual dom : The virtual DOM (VDOM) is a programming concept where an ideal, or “virtual”,
+ representation of a UI is kept in memory and synced with the “real”
+
+3.framework: framework is group of library ,
+4.library : its design to perform some specifice task
+
+reacr fibre
+
+synthetic event=== onClick.....
+
+reconcilation -- Diffing Algorithm
+virtual dom is concept of react
+ react - ui ke liye
+
+react-dom-- apna virtaul dom ko manage karta hai
+
+
+jsx-- javascript xml, javascript +HTML, jsx is a concept
+
+jsx need at least one root tag
+
+
+component
+
+class component
+pure component
+function component
