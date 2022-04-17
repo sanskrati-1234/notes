@@ -7,8 +7,36 @@
 
 reacr fibre
 
+1. react use concept of virtul dom
+   here we have two virtaul dom , first is previous dom which is the copy of real dom
+   and one is updated dom and when update dom update so it compaire with
+   with old virtual dom is any change so  update real dom wih diffing alog
 synthetic event=== onClick.....
 
+2. JSX -a nwe & stronger way UI elements altogether
+
+  2.1- shows error or type safe
+  
+  2.2 ALLow css
+  2.3  allow HTML
+  2.4  support js expression
+  2.5 parent element must
+  2.6 support fragment
+
+
+npm:
+npm is the world's largest Software Registry.
+
+The registry contains over 800,000 code packages.
+
+Open-source developers use npm to share software.
+
+Many organizations also use npm to manage private development.
+
+
+npm ka knnam hota hai file ko download karna
+
+npx ka kaam file ko s=download + Run
 reconcilation -- Diffing Algorithm
 virtual dom is concept of react
  react - ui ke liye
@@ -18,6 +46,10 @@ react-dom-- apna virtaul dom ko manage karta hai
 
 jsx-- javascript xml, javascript +HTML, jsx is a concept
 
+
+webpack vs ebsbuild
+
+hot reloading
 jsx need at least one root tag
 
 
@@ -26,3 +58,8 @@ component
 class component
 pure component
 function component
+
+
+Types of components & it's usage
+State & it's management
+Props
