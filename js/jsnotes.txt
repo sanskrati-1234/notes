@@ -399,3 +399,14 @@ blocking calls / non blocking call
 37. TS is superset of js
 help to reduce error at
 production 
+
+
+
+state management
+
+
+export vs  export  default
+
+in expot we  need to use exact name and need to {}
+
+in case of export default we can import with other name as well 
