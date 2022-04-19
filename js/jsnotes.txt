@@ -410,3 +410,18 @@ export vs  export  default
 in expot we  need to use exact name and need to {}
 
 in case of export default we can import with other name as well 
+
+
+
+if we have two files which has same function and we use export
+so we can use alias while importing
+
+function as function1
+
+difference b/w export and require
+
+required import all the function which may not require
+but in export we can omport exact function
+
+
+synthetic event is artificial event

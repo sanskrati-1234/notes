@@ -1,0 +1,9 @@
+hooks are alternative of lifecycle methods.
+hooks are only part of functional component
+
+-- useState
+-- useCallback
+--useContext
+--useMemo
+--useEffect
+--useReducer

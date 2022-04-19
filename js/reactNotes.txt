@@ -63,3 +63,7 @@ function component
 Types of components & it's usage
 State & it's management
 Props
+
+
+react performance imporve karta 
+readility increase karta  hai because of Unidireaction
