@@ -424,9 +424,17 @@ required import all the function which may not require
 but in export we can omport exact function
 
 
+
 conditional renadering
- ternary operator
+- ternary operator
  {? <>:null}
+- add operator
+- 
+
+
+
+
+
 
 
 
