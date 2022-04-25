@@ -424,4 +424,11 @@ required import all the function which may not require
 but in export we can omport exact function
 
 
+conditional renadering
+ ternary operator
+ {? <>:null}
+
+
+
+
 synthetic event is artificial event
