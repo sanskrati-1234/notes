@@ -431,6 +431,9 @@ conditional renadering
 - add operator
 - 
 
+with react 16.8 hooks added
+
+with rw
 
 
 

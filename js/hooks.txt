@@ -7,3 +7,6 @@ hooks are only part of functional component
 --useMemo
 --useEffect
 --useReducer
+
+
+state creatiion only ek baar hota hai
