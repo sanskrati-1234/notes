@@ -10,3 +10,8 @@ hooks are only part of functional component
 
 
 state creatiion only ek baar hota hai
+
+References 
+- https://www.simform.com/blog/scaling-frontend/
+- https://www.simform.com/blog/principles-of-scalable-front-ends/
+- https://simformsolutions.gemalpha.com/view/047ba5637fb24f4080f811bc592646aa032b34fd5e98491cb921a3959f5ef881/Building-scalable-frontend-ebook-1?utm_source=Download+Ebook+CTA&utm_medium=Scale+frontend+landing+page
