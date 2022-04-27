@@ -4,3 +4,17 @@ load balancing
 local 
 
 authentication is the process of verifying who someone is, whereas authorization is the process of verifying what specific applications, files, and data a user has access to
+
+
+how message sent
+
+
+send mss = save in sqllite sync message in bg check network  yadi nhi hai to pending stae
+
+
+
+
+when internat aay to sync servcie chalta hai bg main
+
+
+index db

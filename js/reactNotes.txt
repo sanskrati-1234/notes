@@ -67,3 +67,9 @@ Props
 
 react performance imporve karta 
 readility increase karta  hai because of Unidireaction
+
+
+
+
+React.memo == only reander component which change,
+because everytime render may not mandatorty
