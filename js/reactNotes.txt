@@ -68,8 +68,22 @@ Props
 react performance imporve karta 
 readility increase karta  hai because of Unidireaction
 
+class component main fucntion ke class me this ka issue aata hai
+
+
+React.memo == only reander component which changes
+because everytime render may not mandatorty with parent component render
+
+React.memo parent ke state ko child ke props se compaire karega
+
+use React.memo carefully
 
 
 
-React.memo == only reander component which change,
-because everytime render may not mandatorty
+in pure component it compair next props with prev props
+
+React.memo  and pure  component  doo shallow checking
+
+
+https://lifesaver.codes/answer/q-when-should-you-not-use-react-memo
+https://dmitripavlutin.com/use-react-memo-wisely/
