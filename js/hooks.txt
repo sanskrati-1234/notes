@@ -15,3 +15,11 @@ References
 - https://www.simform.com/blog/scaling-frontend/
 - https://www.simform.com/blog/principles-of-scalable-front-ends/
 - https://simformsolutions.gemalpha.com/view/047ba5637fb24f4080f811bc592646aa032b34fd5e98491cb921a3959f5ef881/Building-scalable-frontend-ebook-1?utm_source=Download+Ebook+CTA&utm_medium=Scale+frontend+landing+page
+
+useMemo: when we are doing any complex calculation so donot do whole calculation on every 
+render then we use useMemo
+
+meno ise memoization , means please remeber particular thing
+when we want to do some calculation we use use MEmo
+
+singletone service which initialize once  and persist data  until app is running

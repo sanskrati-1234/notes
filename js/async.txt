@@ -32,7 +32,7 @@
    micro task exicution. becuase promises has more priority the 
    call back functions
 9- What is a promise
-   - Promise is non blocking , which help use to handle async task.
+   - Promise is non blocking code , which help us to handle async task.
 10- Stages/component of promise
     there are stages of promise:
     -panding stage
@@ -103,5 +103,5 @@ generateNumber(10)
   };
   func();
 20- Can we use await without async:
-    no , becuase await wait for completion of async task
+    no , becuase await without for completion of async task
 21- An image tag loading an image sync or async
