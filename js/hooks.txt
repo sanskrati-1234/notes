@@ -23,3 +23,15 @@ meno ise memoization , means please remeber particular thing
 when we want to do some calculation we use use MEmo
 
 singletone service which initialize once  and persist data  until app is running
+
+
+
+useCallback:
+jaise hi  component re render hote to sare function recalculate ho tehai use
+avoid karne ka liye useCallback use karna hai
+
+usecallback caching karta hai
+oar jub tak uski dependency change nhi hota donot Run
+function , useCallback return a function
+
+
