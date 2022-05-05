@@ -22,6 +22,14 @@ synthetic event=== onClick.....
   2.4  support js expression
   2.5 parent element must
   2.6 support fragment
+3. prop drilling:
+   A->B->c->d
+--- global state + notification
+
+global state management 
+
+usecontext
+
 
 
 npm:
