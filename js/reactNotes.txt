@@ -31,6 +31,13 @@ global state management
 usecontext
 
 
+4. react router dom : use for navigation
+navigation : simple process , navigate one page to other page
+
+Link tag mount and unmount karta hai
+isse page reload nhi hota har baar
+
+
 
 npm:
 npm is the world's largest Software Registry.
