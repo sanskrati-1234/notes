@@ -38,6 +38,13 @@ Link tag mount and unmount karta hai
 isse page reload nhi hota har baar
 
 
+data send:
+query -query params --- ?key=111 &
+path = path params === details/productid
+
+link state attribute
+
+
 
 npm:
 npm is the world's largest Software Registry.
@@ -102,3 +109,8 @@ React.memo  and pure  component  doo shallow checking
 
 https://lifesaver.codes/answer/q-when-should-you-not-use-react-memo
 https://dmitripavlutin.com/use-react-memo-wisely/
+
+
+path param use for actual resourc
+
+query ues for filter or search
