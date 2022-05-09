@@ -114,3 +114,10 @@ https://dmitripavlutin.com/use-react-memo-wisely/
 path param use for actual resourc
 
 query ues for filter or search
+
+
+fetch se data stream ke form main aata to usse read karna ke liye parse karna hota
+
+parse to json
+data.json
+promise return karta hai
