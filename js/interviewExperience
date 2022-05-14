@@ -1,0 +1,27 @@
+swiggy :
+rounds
+
+- coding :- 2 hours - api ,fetching data and the searching , sorting
+  filtering, searching , debouncing,type ahead feature, responsive
+  ,structure, web performance
+
+- technical interview -aprox 1 hour
+  DS+ UI - DFS and BFS / tree searching kind of
+  BFS: breath first search-
+  10
+  4 6
+  11 13 14 15
+
+BFS : 10 4 6 11 13 14 15
+DFS : 10 4 11 13 6 14 15
+prototypal inheritence
+promises
+aync await
+web performance optimization
+
+- UI design and arcitur -aprox 1 hour
+  to implement Carousel - own lib for that
+  responsive
+
+- snake game
+- ## Hiring maneger -aprox 1 hour

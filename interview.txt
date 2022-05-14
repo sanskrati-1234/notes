@@ -1,0 +1,35 @@
+Watch Daily based interviews
+
+Razorpay
+Swiggy
+Meesho
+Zomato
+Microsoft
+Uber
+Google
+Intuit
+HashedIN by Dellotie
+Grab
+PhonePe
+Flipkart
+Walmart
+PayPal
+MakeMyTrip
+Yatra
+PayTM
+Zerodha
+Unacademy
+
+
+Youtube Series to follow
+Gaurav Sen - System Design
+SudoCode - System Design
+
+Interview Question
+Interviewbit
+
+
+To Explore
+- Browser Techniques
+- Page Optimisation Techniques
+- LLD & HLD
