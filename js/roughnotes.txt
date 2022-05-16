@@ -62,3 +62,14 @@ map
    higher order function
 
    
+
+
+   /// avoid lazy loading routing
+   //avoid lazy loading component
+   // avoid rerendring
+   // code spliting
+
+   // browser intersection is browser api
+
+   // image ko lazy load
+    loading="lazy"
