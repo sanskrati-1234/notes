@@ -73,3 +73,11 @@ map
 
    // image ko lazy load
     loading="lazy"
+
+
+    https://dev.to/producthackers/intersection-observer-using-react-49ko
+
+    https://reactjs.org/docs/code-splitting.html
+
+    https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API
+    https://www.npmjs.com/package/react-infinite-scroll-component
