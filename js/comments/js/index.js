@@ -103,6 +103,7 @@ function showExapndedData(com, data, innerEle) {
 function showComments(data, element) {
   const com = new Comment();
   const ele = document.createElement("div");
+  const button = document.cre;
   ele.id = data.id;
   const br = document.createElement("br");
   if (data?.children?.length === 0) {
