@@ -25,3 +25,24 @@ web performance optimization
 
 - snake game
 - ## Hiring maneger -aprox 1 hour
+
+#Unacademy
+
+1. diff b/w map and forEach
+
+   - map returns new array but forEach does not return anaything
+   - map didnot modifiy original array but forEach modified original array
+   - we can chain stuff on map
+
+2. null vs undefine
+   null is an actual value but undefine indicate that veriable is declear but not intilize
+
+3. undefine vs not define
+   if we declare varible but not intilize it the value will be undefine
+   if we didnot declare variable itself the we will get not defined
+
+4. event delegation
+   generally when we work on any website , inside of attacting event listener to all
+   product or item we can attact event lister to parent and handle ir accordingly
+
+5. Flatten the Array
