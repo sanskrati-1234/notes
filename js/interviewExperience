@@ -46,3 +46,18 @@ web performance optimization
    product or item we can attact event lister to parent and handle ir accordingly
 
 5. Flatten the Array
+6. call apply and bind
+   object.method.call(objectonwhichwewanttocall.value) / /it directly run taht function
+   object.method.apply(objectonwhichwewanttocall.[value])
+   object.method.bind(objectonwhichwewanttocall) // it will reeturn a function
+
+7. currying
+
+function add(a){
+return function(b){
+if(b) return add(a+b)
+return a;
+}
+}
+
+console.log(add(5)(2)())
