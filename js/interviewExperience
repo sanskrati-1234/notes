@@ -51,7 +51,7 @@ web performance optimization
    object.method.apply(objectonwhichwewanttocall.[value])
    object.method.bind(objectonwhichwewanttocall) // it will reeturn a function
 
-7. currying
+7. infinite currying
 
 function add(a){
 return function(b){
