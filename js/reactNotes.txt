@@ -74,6 +74,7 @@ webpack vs ebsbuild
 hot reloading
 jsx need at least one root tag
 
+callback and useMemo
 
 component
 
