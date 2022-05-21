@@ -1,0 +1,20 @@
+Redux is an open-source JavaScript library used to manage application state.
+React uses Redux for building the user interface
+
+
+redux solve problem global state management
+
+Redux is 3rd perty librar
+which use flux
+
+
+1. statemanagement
+
+2. state persistent
+
+3. prop drilling
+4. side effects  - fetching data, updating dom 
+
+,
+
+pure function: it is independent of out side function, it only change when input chnage
