@@ -83,6 +83,11 @@ pure component
 function component
 
 
+https://linguinecode.com/post/react-component-vs-purecomponent
+
+
+
+
 Types of components & it's usage
 State & it's management
 Props
