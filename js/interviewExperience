@@ -60,9 +60,8 @@ return a;
 }
 }
 
-console.log(add(5)(2)())
+console.log(add(5)(2)())node
 
 8. composition polyfill
 
 9. debouncing
-
