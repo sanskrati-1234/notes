@@ -17,4 +17,4 @@ function sort012(arr, n) {
   return arr;
 }
 
-console.log(sort012([2, 1, 0], 12));
+console.log(sort012([2, 1, 0]));
