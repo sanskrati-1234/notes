@@ -4,7 +4,7 @@ obj={
     name,
     city
 }
-this is also know as shourthand
+this is also know as shorthand
 
 object disreucturing
 obj={name:"sa",city:"xyz"}
