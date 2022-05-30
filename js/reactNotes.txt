@@ -127,3 +127,67 @@ fetch se data stream ke form main aata to usse read karna ke liye parse karna ho
 parse to json
 data.json
 promise return karta hai
+
+prototype is kind of inheritence, which get property from it parant class.
+
+
+method is comcept in which once menthod output can use input to other method
+https://github.com/Sunnysit/react-redux-hooks-example
+
+https://devsday.ru/blog/details/52291
+https://www.esri.com/arcgis-blog/products/3d-gis/3d-gis/react-redux-building-modern-web-apps-with-the-arcgis-js-api/
+
+https://redux.js.org/tutorials/essentials/part-1-overview-concepts
+
+https://practice.geeksforgeeks.org/explore?page=1&company[]=Amazon&curated[]=1&sortBy=submissions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * @param {string} s
+ * @return {number}
+ 
+ */
+
+var longestValidParentheses = function(s) {
+   let L=0,R=0;
+    let arr=[];
+    
+    for(let i=0;i<s.length;i++){
+        if(s[i]==="("){
+            L++;
+        }else{
+            R++;
+        }
+        if(R>L){
+            arr.push(L);
+            L=0;
+            R=0;
+        }
+    }
+    if(L===R || L>R){
+      arr.push(R)
+      console.log(arr)
+    }
+      
+return arr;
+
+};     
+    
+    
+console.log(longestValidParentheses("(()))())()()()()()"));    
+    
+
+
+
