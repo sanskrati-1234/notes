@@ -1,7 +1,7 @@
 let arr = [9, 9, 9],
   carry = 0,
   val = 0,
-  num = 503;
+  num = 5;
 for (let i = arr.length - 1; i >= 0; i--) {
   if (i === arr.length - 1) {
     val = arr[i] + num;
