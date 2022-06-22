@@ -20,11 +20,34 @@
           #ddd 0
         );
       }
+
+      body {
+        margin: 0;
+      }
+
+      #child {
+        /*margin-top: 50vh;
+        margin-left: 50vw;*/
+      }
+      #parent {
+        width: 100px;
+        height: 100px;
+
+        background: radial-gradient(
+          circle at right top,
+          transparent 20px,
+          rgb(159, 21, 21) 0
+        );
+
+        /*grid-template-rows: auto;
+        display: gr;
+        justify-content: center;
+        height: 100vh;*/
+      }
     </style>
   </head>
   <body>
-    <input type="text" onkeyup="deFunction()" />
-    <div id="box"></div>
+    <div id="parent">first</div>
   </body>
   <script src="./js/index.js"></script>
 </html>
