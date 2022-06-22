@@ -1,1 +1,63 @@
 HTML:https://www.interviewbit.com/html-interview-questions/
+
+rm em
+
+input
+
+selector
+
+flex flow
+
+flex Basis
+
+flex grow
+
+flex srink
+
+box sizing
+
+overflow ke liye height hona jaruri hai
+
+observable
+
+absolute me : parent se yahi parent nhi ahi to body se
+
+relative: apni position se
+
+sudo elements
+sudo classes
+
+entities
+
+google dns
+
+https://www.geeksforgeeks.org/react-js-error-boundaries/
+
+https://jsonworld.com/blog/communicate-between-components-with-observable-and-subject-in-reactjs
+
+https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_event_stoppropagation
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+
+Prefetch, Preload, Preconnect
+
+Babel Transpiler
+Webpack
+Tree Shaking in Webpack
+
+https://www.geeksforgeeks.org/react-js-error-boundaries/
+
+https://jsonworld.com/blog/communicate-between-components-with-observable-and-subject-in-reactjs
+
+https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_event_stoppropagation
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+
+Prefetch, Preload, Preconnect
+
+Babel Transpiler
+Webpack
+Tree Shaking in Webpack
+
+https://blog.logrocket.com/using-react-cloneelement-function/
+React Clone Element
