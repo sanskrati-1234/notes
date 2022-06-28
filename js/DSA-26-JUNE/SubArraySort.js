@@ -19,7 +19,7 @@ for (let i = 0; i < arr.length - 1; i++) {
 }
 let left, right;
 for (let i = 0; i < arr.length; i++) {
-  if (arr[i] > small) {
+  if (arr[i] > smal) {
     left = arr[i];
     break;
   }
@@ -32,3 +32,4 @@ for (let k = arr.length - 1; k >= 0; k--) {
 }
 console.log("s", smal);
 console.log("l", large);
+console.log("35", left, right);
