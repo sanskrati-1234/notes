@@ -1,6 +1,6 @@
 0 -Why we're using async programming, explain
   - because when we do network call , so response time of
-   that call is prefine, it depends on multiple aspect
+   that call is not prefine, it depends on multiple aspect
    like:  depend on network
           depend on size of data
           depend on server
