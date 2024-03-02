@@ -32,7 +32,7 @@
    micro task exicution. becuase promises has more priority the 
    call back functions
 9- What is a promise
-   - Promise is non blocking code , which help us to handle async task.
+   - Promise is an object, which  represents  eventual completion  of async operations.
 10- Stages/component of promise
     there are stages of promise:
     -panding stage
